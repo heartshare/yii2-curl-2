@@ -1,0 +1,17 @@
+{
+    "name": "pvlg/yii2-curl",
+    "description": "cURL wrapper for yii2 framework",
+    "keywords": ["yii", "yii2", "extension", "curl"],
+    "homepage": "https://github.com/pvlg/yii2-curl",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "require": {
+        "yiisoft/yii2": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pvlg\\yii2\\curl\\": ""
+        }
+    }
+}
